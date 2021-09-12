@@ -1,0 +1,264 @@
+
+name time (nanoseconds) status: begin opt heat loop
+callFactory........... 120945900 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+defineObject.......... 228526800 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+closureInstance....... 264745300 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+defineArray........... 150924000 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+defineArrayOfString... 162402000 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+defineArrayOfNumber... 158070200 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+mixinObject........... 217686300 --optBefore: no preopt, --optAfter: interp --optAfterHeat: interp --optAfterLoop: opt, turbofan
+newPrototype.......... 189938400 --optBefore: no preopt, --optAfter: interp --optAfterHeat: interp --optAfterLoop: opt, turbofan
+newObject............. 201100700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+newClass.............. 167051100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: interp --optAfterLoop: opt, turbofan
+objectCreate.......... 483562700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"callFactory...........","time":"120945900n"},
+	{"name":"closureInstance.......","time":"264745300n"},
+	{"name":"defineObject..........","time":"228526800n"},
+	{"name":"defineArray...........","time":"150924000n"},
+	{"name":"defineArrayOfString...","time":"162402000n"},
+	{"name":"defineArrayOfNumber...","time":"158070200n"},
+	{"name":"mixinObject...........","time":"217686300n"},
+	{"name":"newPrototype..........","time":"189938400n"},
+	{"name":"newClass..............","time":"167051100n"},
+	{"name":"newObject.............","time":"201100700n"},
+	{"name":"objectCreate..........","time":"483562700n"}
+]
+
+callFactory............120945900........0%
+defineArray............150924000.......24%
+defineArrayOfNumber....158070200.......30%
+defineArrayOfString....162402000.......34%
+newClass...............167051100.......38%
+newPrototype...........189938400.......57%
+newObject..............201100700.......66%
+mixinObject............217686300.......79%
+defineObject...........228526800.......88%
+closureInstance........264745300......118%
+objectCreate...........483562700......299%
+
+name time (nanoseconds) status: begin opt heat loop
+filterObjects......... 1937745700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"filterObjects.........","time":"1937745700n"},
+	{"name":"filterArrays..........","time":"4216061400n"}
+]
+
+filterArrays.......... 4216061400 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+filterObjects.........1937745700........0%
+filterArrays..........4216061400......117%
+
+name time (nanoseconds) status: begin opt heat loop
+testRangePush......... 9426153800 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testRangeNew.......... 2143971500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testRangePush.........","time":"9426153800n"},
+	{"name":"testRangeNew..........","time":"2143971500n"}
+]
+
+testRangePush.........9426153800......339%
+testRangeNew..........2143971500........0%
+fnLambdaBlock......... 572693000 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+name time (nanoseconds) status: begin opt heat loop
+fnLambdaBlockN........ 652788000 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaBlockU........ 668130800 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaExprU......... 664343800 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaExprN......... 623829500 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaBlock0........ 582902600 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaExpr0......... 571685600 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnDeclarationU........ 640250600 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnDeclaration......... 647881100 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnDeclarationN........ 640917400 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnExpression.......... 645399500 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnDeclaration0........ 578418600 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnExpressionU......... 641696000 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnExpression0......... 564568800 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"fnLambdaBlock.........","time":"572693000n"},
+	{"name":"fnLambdaBlockU........","time":"668130800n"},
+	{"name":"fnLambdaBlockN........","time":"652788000n"},
+	{"name":"fnLambdaBlock0........","time":"582902600n"},
+	{"name":"fnLambdaExprU.........","time":"664343800n"},
+	{"name":"fnLambdaExprN.........","time":"623829500n"},
+	{"name":"fnLambdaExpr0.........","time":"571685600n"},
+	{"name":"fnDeclaration.........","time":"647881100n"},
+	{"name":"fnDeclarationU........","time":"640250600n"},
+	{"name":"fnDeclarationN........","time":"640917400n"},
+	{"name":"fnDeclaration0........","time":"578418600n"},
+	{"name":"fnExpression..........","time":"645399500n"},
+	{"name":"fnExpressionU.........","time":"641696000n"},
+	{"name":"fnExpressionN.........","time":"639107900n"},
+	{"name":"fnExpression0.........","time":"564568800n"}
+]
+
+fnExpression0..........564568800........0%
+fnExpressionN......... 639107900 --optBefore: no preopt, --optAfter: opt, turbofan --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+fnLambdaExpr0..........571685600........1%
+fnLambdaBlock..........572693000........1%
+fnDeclaration0.........578418600........2%
+fnLambdaExprN..........623829500.......10%
+fnLambdaBlock0.........582902600........3%
+fnExpressionN..........639107900.......13%
+fnDeclarationN.........640917400.......13%
+fnDeclarationU.........640250600.......13%
+fnExpressionU..........641696000.......13%
+fnDeclaration..........647881100.......14%
+fnExpression...........645399500.......14%
+fnLambdaBlockN.........652788000.......15%
+fnLambdaBlockU.........668130800.......18%
+fnLambdaExprU..........664343800.......17%
+
+name time (nanoseconds) status: begin opt heat loop
+testIncludes.......... 3575556100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testIndexOf........... 1944413100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testIndexOf...........1944413100........0%
+
+times: [
+	{"name":"testIncludes..........","time":"3575556100n"},
+	{"name":"testIndexOf...........","time":"1944413100n"}
+]
+
+testIncludes..........3575556100.......83%
+
+name time (nanoseconds) status: begin opt heat loop
+testLetInLoop......... 2910961500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testLetInLoop.........","time":"2910961500n"},
+	{"name":"testLetBeforeLoop.....","time":"2830213600n"}
+]
+
+testLetBeforeLoop..... 2830213600 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testLetBeforeLoop.....2830213600........0%
+testLetInLoop.........2910961500........2%
+
+name time (nanoseconds) status: begin opt heat loop
+testForKeys........... 2934211200 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForIn............. 1052792500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForEach........... 3180504500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testForKeys...........","time":"2934211200n"},
+	{"name":"testForIn.............","time":"1052792500n"},
+	{"name":"testForEach...........","time":"3180504500n"},
+	{"name":"testForOf.............","time":"3485996700n"}
+]
+
+testForOf............. 3485996700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForIn.............1052792500........0%
+testForKeys...........2934211200......178%
+testForEach...........3180504500......202%
+testForOf.............3485996700......231%
+
+name time (nanoseconds) status: begin opt heat loop
+testConcat............ 5467067800 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testConcat............","time":"5467067800n"},
+	{"name":"testTick..............","time":"5216475600n"}
+]
+
+testTick.............. 5216475600 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testTick..............5216475600........0%
+testConcat............5467067800........4%
+
+name time (nanoseconds) status: begin opt heat loop
+testForInHash......... 226187500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForEach........... 383750300 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForOfKeys......... 123264100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForOf............. 314172100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testForInHash.........","time":"226187500n"},
+	{"name":"testForEach...........","time":"383750300n"},
+	{"name":"testForOf.............","time":"314172100n"},
+	{"name":"testForOfKeys.........","time":"123264100n"},
+	{"name":"testForOfValue........","time":"130302900n"},
+	{"name":"testForOfEntries......","time":"303085900n"}
+]
+
+testForOfEntries...... 303085900 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForOfValue........ 130302900 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForOfValue.........130302900........5%
+testForOfKeys..........123264100........0%
+testForInHash..........226187500.......83%
+testForOf..............314172100......154%
+testForOfEntries.......303085900......145%
+testForEach............383750300......211%
+
+name time (nanoseconds) status: begin opt heat loop
+testRepeat............ 812619100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testRepeat.............812619100........0%
+testArrayJoin.........1174087100.......44%
+
+times: [
+	{"name":"testArrayJoin.........","time":"1174087100n"},
+	{"name":"testRepeat............","time":"812619100n"}
+]
+
+testArrayJoin......... 1174087100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+name time (nanoseconds) status: begin opt heat loop
+testSlice............. 581398200 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testSlice0............ 573189400 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testConcat............ 904630500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testFor............... 1769044100 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForNew............ 819929900 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testSlice.............","time":"581398200n"},
+	{"name":"testSlice0............","time":"573189400n"},
+	{"name":"testConcat............","time":"904630500n"},
+	{"name":"testFor...............","time":"1769044100n"},
+	{"name":"testForNew............","time":"819929900n"}
+]
+
+testSlice0.............573189400........0%
+testSlice..............581398200........1%
+testConcat.............904630500.......57%
+testForNew.............819929900.......43%
+testFor...............1769044100......208%
+
+name time (nanoseconds) status: begin opt heat loop
+testSlice............. 908801800 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testConcat............ 1515552200 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testSlice0............ 580505300 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testFor............... 1523025700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForNew............ 1053354200 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testSlice.............","time":"908801800n"},
+	{"name":"testSlice0............","time":"580505300n"},
+	{"name":"testConcat............","time":"1515552200n"},
+	{"name":"testFor...............","time":"1523025700n"},
+	{"name":"testForNew............","time":"1053354200n"}
+]
+
+testSlice0.............580505300........0%
+testSlice..............908801800.......56%
+testForNew............1053354200.......81%
+testFor...............1523025700......162%
+testConcat............1515552200......161%
+
+name time (nanoseconds) status: begin opt heat loop
+testForOfNumber....... 299187700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testEachNumber........ 261714200 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testEachString........ 149244700 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+testForOfString....... 133965500 --optBefore: no preopt, --optAfter: interp --optAfterHeat: opt, turbofan --optAfterLoop: opt, turbofan
+
+times: [
+	{"name":"testEachNumber........","time":"261714200n"},
+	{"name":"testForOfNumber.......","time":"299187700n"},
+	{"name":"testEachString........","time":"149244700n"},
+	{"name":"testForOfString.......","time":"133965500n"}
+]
+
+testForOfString........133965500........0%
+testEachString.........149244700.......11%
+testEachNumber.........261714200.......95%
+testForOfNumber........299187700......123%
